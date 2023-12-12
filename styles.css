@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(images/john-towner.jpg);
+}
+
+.container {
+	width: 90%;
+	/* border: 2px solid white; */
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 12rem;
+}
+
+.widget {
+	width: 80%;
+	/* border: 2px solid greenyellow; */
+	margin: 2rem auto;
+}
+
+.widget p {
+	display: inline-block;
+	line-height: 1.5rem;
+}
+
+.date {
+	color: white;
+	/* font-family: 'Mohave', sans-serif; */
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	font-size: 1.5rem;
+	background: rgba(3, 10, 18, 0.9);
+	padding: 4rem;
+	width: 100%;
+	border: 2px solid #ed3c80;
+	margin-bottom: 1.5rem;
+	border-radius: 10px;
+}
+
+.clock {
+	/* color: white; */
+	color: #ed3c80;
+	font-family: "Roboto", sans-serif;
+	/* font-family: 'Mohave', sans-serif; */
+	text-align: center;
+	font-size: 3.5rem;
+	background: rgba(3, 10, 18, 0.9);
+	padding: 3rem;
+	width: 100%;
+	border: 2px solid #ed3c80;
+	border-radius: 10px;
+}
+
+.clock .caja-segundos {
+	display: inline-block;
+}
+
+.clock .segundos,
+.clock .ampm {
+	display: block;
+	font-size: 1.4rem;
+}
